@@ -48,7 +48,7 @@ export default function Login() {
           <span className="brand-name">MyApp</span>
         </div>
 
-        <h1 className="auth-title">Welcome Backkkkkkkkkkkk</h1>
+        <h1 className="auth-title">Welcome Back</h1>
         <p className="auth-subtitle">Sign in to your account to continue</p>
 
         {/* Error */}
