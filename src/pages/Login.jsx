@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { AlertTriangle, User } from 'lucide-react';
 
-const API = '/api';
+const API = 'https://flask-react-api.mywire.org/api';
 
 export default function Login() {
   const navigate = useNavigate();

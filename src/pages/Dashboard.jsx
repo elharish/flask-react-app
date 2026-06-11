@@ -14,7 +14,7 @@ import {
   HandMetal,
 } from 'lucide-react';
 
-const API = '/api';
+const API = 'https://flask-react-api.mywire.org/api';
 
 export default function Dashboard() {
   const navigate = useNavigate();

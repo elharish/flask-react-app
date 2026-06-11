@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { AlertTriangle, CheckCircle, User } from 'lucide-react';
 
-const API = '/api';
+const API = 'https://flask-react-api.mywire.org/api';
 
 export default function Register() {
   const navigate = useNavigate();
