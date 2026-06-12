@@ -29,9 +29,9 @@ export default function Register() {
     setError('');
     setSuccess('');
 
-    const { name, email, password, confirm_password } = form;
+    const { name, mobile, email, password, confirm_password } = form;
 
-    if (!name || !email || !password || !confirm_password) {
+    if (!name || !mobile || !email || !password || !confirm_password) {
       setError('All fields are required.');
       return;
     }
